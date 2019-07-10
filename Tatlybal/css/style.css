@@ -1,0 +1,373 @@
+html {
+  font-size: 10px;
+}
+.button {
+  width: 100%;
+  display: inline-block;
+  padding: .8rem 0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  background-color: #977015;
+  font-size: 2.3rem;
+  transition: 0.2s;
+  margin-top: -7rem;
+  font-family: Century Gothic;
+}
+.button:hover {
+  text-decoration: none;
+  color: #977015;
+  background-color: #fff;
+}
+
+.nav {
+  font-size: 2.5rem;
+  background-color: #ffb832;
+  height: 6rem;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  font-family: Monotype Corsiva;
+}
+.nav img{
+  width: 19.7%;
+  height: 5.8rem;
+  display: inline-block;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 5px;
+  margin-right: -7px;
+}
+.nav ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.nav ul a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.nav ul a li {
+  border-left: 1px solid #ffffff;
+  display: inline-block;
+  line-height: 6rem;
+  width: 20%;
+  margin-left: -5px;
+  text-align: center;
+  transition: 0.2s;
+}
+.nav ul a li:hover {
+  background-color: #725512;
+}
+.nav-last {
+  border-right: 1px solid #ffffff;
+}
+
+
+.header {
+  background: url(../img/fonovoe.jpg)  repeat-x;
+  background-size: cover;
+  height: 70rem;
+  
+}
+.header .obshee{
+  font-size: 7.2rem;
+  font-family: Monotype Corsiva;
+  color: rgb(0, 0, 0);
+  float: right;
+    text-align: center;
+}
+.header .opisу{
+  margin-top: 7rem;
+}
+.header .opis{
+ margin-top: 2rem;
+}
+.header-contain {
+  text-align: center;
+  margin-top: 5.5rem;
+}
+
+.about-us {
+  background-color: #fff;
+  padding: 8rem 1rem;
+  text-align: center;
+  font-family: Century Gothic;
+}
+.about-us .onas{
+  background-color: #ffb832;
+  border-radius: 1.5rem;
+  padding: 4px;
+  margin-top: 5rem;
+  margin-left: 6rem;
+  width: 35rem;
+  font-size: 1.8rem;
+  text-align: left;
+}
+.about-us h1 {
+  color: #ffb832;
+  font-size: 6rem;
+  margin: 5rem 0rem;
+}
+.about-us-slider {
+  margin-top: 5rem;
+  width: 100%;
+}
+.about-us-slider img {
+  width: 100%;
+}
+.about-us-slider .prev {
+  width: 6.8rem;
+  height: 6.8rem;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about-us-slider .prev-prev {
+  left: -8rem;
+  background: url(../img/cnopka.png) center no-repeat;
+  background-size: 100%;
+}
+.about-us-slider .prev-next {
+  right: -8rem;
+  background: url(../img/cnopka1.png) center no-repeat;
+  background-size: 100%;
+}
+
+
+
+
+
+.advantages {
+  background-color: #ffb832;
+  color: #fff;
+  padding: 8rem 1rem;
+  text-align: center;
+  font-family: Century Gothic;
+}
+.advantages h1 {
+  color: #fff;
+  font-size: 6rem;
+  margin: 5rem 0rem;
+}
+.advantages-slider img {
+  margin: 0 auto;
+  width: 50%;
+}
+.advantages .zaglav{
+  font-size: 4rem;
+}
+.advantages .crug{
+  border-radius: 360px;
+}
+.advantages-slider p {
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
+  color: #fff;
+}
+.advantages-slider-block {
+  width: 100%;
+}
+
+
+
+.prices {
+  background-color: #ffffff;
+  padding: 8rem 1rem;
+  text-align: center;
+  font-family: Century Gothic;
+}
+.prices h1 {
+  color: #ffb832;
+  font-size: 6rem;
+  margin: 5rem 0rem;
+}
+.prices img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+.prices-block {
+  background-color: #ffb832;
+  padding: 3rem 3rem;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 0.7rem;
+  margin-top: 3rem;
+}
+.prices-block h3 {
+  margin-top: 1.5rem;
+  font-size: 2.4rem;
+}
+.prices-block .mass {
+  font-size: 1.7rem;
+}
+.prices-block .price {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.prices-block a {
+  border-radius: .7rem;
+  font-size: 1.8rem;
+}
+
+.order {
+  background-color: rgb(218, 216, 216);
+  padding: 8rem 1rem;
+  text-align: center;
+  border-top: 4px solid #ffb832;
+}
+.order h1 {
+  color: #000000;
+  font-size: 6rem;
+  margin: 5rem 0rem;
+}
+.order p {
+  font-size: 2.1rem;
+}
+.order-description {
+  margin: 5rem 0rem;
+}
+.order-form {
+  border: 2px solid #ffb832;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  background-color: #fafffa;
+  margin-top: 5rem;
+}
+.order-form p{
+  text-align: left;
+  
+  
+}
+.order-form input {
+  border: 2px solid #ffb832;
+  border-radius: 1.3rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  padding: .8rem;
+  
+  width: 100%;
+}
+.order-form input {
+  margin-bottom: 3rem;
+}
+.order-form button {
+  border: none;
+}
+
+
+
+.footer {
+  background-color: #a1a1a1;
+  margin: 0;
+  padding: 2rem;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media (max-width: 1199px) {
+  .header {
+    padding-bottom: 10rem;
+  }
+  
+  .about-us-slider .prev {
+    width: 6rem;
+    height: 6rem;
+  }
+  .about-us-slider .prev-prev {
+    left: -7rem;
+  }
+  .about-us-slider .prev-next {
+    right: -7rem;
+  }
+  .about-us-description p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 991px) {
+  .nav {
+    position: initial;
+    height: auto;
+    width: auto;
+    transition: 0.3s;
+  }
+  .nav img{
+    width: auto;
+  }
+  .nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav ul a {
+    font-size: 2.5rem;
+  }
+  .nav ul a li {
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    border-top: 1px solid #ffffff;
+    border-left: none;
+  }
+  .header {
+    padding-top: 0;
+    transition: 0.3s;
+  }
+  .header-contain .menu {
+    background: url(../img/menu.png) center no-repeat;
+    background-size: 100%;
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    
+  }
+  .header p {
+    font-size: 3rem;
+    margin-top: 8rem;
+  }
+  .header-img {
+    display: none;
+    padding-bottom: 15rem;
+  }
+  .prices h2 {
+    margin: 0;
+  }
+  .prices-block {
+    margin-top: 5rem;
+  }
+  .contacts-description h2 {
+    text-align: center;
+  }
+  .contacts .map {
+    margin-top: 5rem;
+  }
+  .about-us-description {
+    margin-top: 3rem;
+  }
+  .order-description {
+    margin: 5rem 0;
+  }
+}
+@media (max-width: 430px) {
+  .header-contain .menu {
+    width: 4rem;
+    height: 4rem;
+  }
+  .header-contain p {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 330px) {
+  .header-contain .menu {
+    width: 3rem;
+    height: 3rem;
+  }
+  .header-contain p {
+    font-size: 2rem;
+  }
+}
