@@ -103,7 +103,7 @@ html {
   margin-left: 6rem;
   width: 35rem;
   font-size: 1.8rem;
-  text-align: left;
+  text-align: center;
 }
 .about-us h1 {
   color: #ffb832;
@@ -113,6 +113,8 @@ html {
 .about-us-slider {
   margin-top: 5rem;
   width: 100%;
+  slidesToShow: 3;
+  slidesToScroll:3;
 }
 .about-us-slider img {
   width: 100%;
@@ -166,6 +168,7 @@ html {
 .advantages-slider p {
   font-size: 1.9rem;
   margin-top: 1.5rem;
+  margin-left: 1rem;
   color: #fff;
 }
 .advantages-slider-block {
@@ -212,6 +215,35 @@ html {
   border-radius: .7rem;
   font-size: 1.8rem;
 }
+.prices-block-slider {
+  margin-top: 5rem;
+  width: 100%;
+  slidesToShow: 3;
+  slidesToScroll:3;
+}
+.prices-block-slider img {
+  width: 100%;
+}
+.prices-block-slider .prev {
+  width: 7rem;
+  height: 6.8rem;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.prices-block-slider .prev-prev {
+  left: -8rem;
+  background: url(../img/cnopka.png) center no-repeat;
+  background-size: 100%;
+}
+.prices-block-slider .prev-next {
+  right: -8rem;
+  background: url(../img/cnopka1.png) center no-repeat;
+  background-size: 100%;
+}
+
 
 .order {
   background-color: rgb(218, 216, 216);
@@ -234,7 +266,7 @@ html {
   border: 2px solid #ffb832;
   border-radius: 1.5rem;
   padding: 3rem;
-  background-color: #fafffa;
+  background-color: #ffff;
   margin-top: 5rem;
 }
 .order-form p{
@@ -271,103 +303,4 @@ html {
   margin: 0;
   font-size: 1.4rem;
 }
-@media (max-width: 1199px) {
-  .header {
-    padding-bottom: 10rem;
-  }
-  
-  .about-us-slider .prev {
-    width: 6rem;
-    height: 6rem;
-  }
-  .about-us-slider .prev-prev {
-    left: -7rem;
-  }
-  .about-us-slider .prev-next {
-    right: -7rem;
-  }
-  .about-us-description p {
-    font-size: 1.6rem;
-  }
-}
-@media (max-width: 991px) {
-  .nav {
-    position: initial;
-    height: auto;
-    width: auto;
-    transition: 0.3s;
-  }
-  .nav img{
-    width: auto;
-  }
-  .nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  .nav ul a {
-    font-size: 2.5rem;
-  }
-  .nav ul a li {
-    width: 100%;
-    margin: 0;
-    padding: 2rem 0;
-    border-top: 1px solid #ffffff;
-    border-left: none;
-  }
-  .header {
-    padding-top: 0;
-    transition: 0.3s;
-  }
-  .header-contain .menu {
-    background: url(../img/menu.png) center no-repeat;
-    background-size: 100%;
-    width: 5rem;
-    height: 5rem;
-    display: inline-block;
-    
-  }
-  .header p {
-    font-size: 3rem;
-    margin-top: 8rem;
-  }
-  .header-img {
-    display: none;
-    padding-bottom: 15rem;
-  }
-  .prices h2 {
-    margin: 0;
-  }
-  .prices-block {
-    margin-top: 5rem;
-  }
-  .contacts-description h2 {
-    text-align: center;
-  }
-  .contacts .map {
-    margin-top: 5rem;
-  }
-  .about-us-description {
-    margin-top: 3rem;
-  }
-  .order-description {
-    margin: 5rem 0;
-  }
-}
-@media (max-width: 430px) {
-  .header-contain .menu {
-    width: 4rem;
-    height: 4rem;
-  }
-  .header-contain p {
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 330px) {
-  .header-contain .menu {
-    width: 3rem;
-    height: 3rem;
-  }
-  .header-contain p {
-    font-size: 2rem;
-  }
-}
+
