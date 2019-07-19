@@ -432,7 +432,8 @@ html {
     color: rgb(0, 0, 0);
     float: center;
     text-align: center;
-    margin: 1rem 5rem;
+    margin-top: 1rem ;
+    
     border-radius: 1.5rem;
   }
   .header .opisу{
@@ -443,9 +444,10 @@ html {
     margin-top: -1rem;
     font-size: 4rem;
    }
+  
   .header-contain {
     text-align: center;
-    margin-top: 0.1rem;
+    margin: 0.1rem 2rem;
   }
   
   .advantages h1{
@@ -507,4 +509,4 @@ html {
   .order h1{
     font-size: 4.5rem;
   }
-} 
+}  
