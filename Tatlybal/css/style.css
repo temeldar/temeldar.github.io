@@ -21,7 +21,7 @@ html {
 }
 
 .nav {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   background-color: #ffb832;
   height: 6rem;
   position: fixed;
@@ -59,6 +59,8 @@ html {
 }
 .nav ul a li:hover {
   background-color: #725512;
+  width: 20%;
+  
 }
 .nav-last {
   border-right: 1px solid #ffffff;
@@ -98,9 +100,10 @@ html {
 .about-us .onas{
   background-color: #ffb832;
   border-radius: 1.5rem;
-  padding: 4px;
+  padding: 0.5rem;
   margin-top: 5rem;
-  margin-left: 6rem;
+  margin-left: 9rem;
+  height: auto;
   width: 35rem;
   font-size: 1.8rem;
   text-align: center;
@@ -225,7 +228,7 @@ html {
   width: 100%;
 }
 .prices-block-slider .prev {
-  width: 7rem;
+  width: 6.8rem;
   height: 6.8rem;
   position: absolute;
   z-index: 99;
@@ -290,8 +293,6 @@ html {
   border: none;
 }
 
-
-
 .footer {
   background-color: #a1a1a1;
   margin: 0;
@@ -305,9 +306,12 @@ html {
 }
 
 @media (max-width:991px){
-  .nav{position:initial;
+  .nav{
+    position:initial;
     height:auto;
-    transition:.3s
+    transition:.3s;
+    margin:0;  
+    width: 100%;
   }
   .nav ul{
     margin:0;
@@ -320,83 +324,119 @@ html {
     width:100%;
     margin:0;
     padding:2rem 0;
-    border:1px solid #ffffff;
+    border:none;
     border-bottom:none
   }
+  .nav img{
+    float: center;
+    width: 90%;  
+  }
+  .nav ul a li:hover {
+    background-color: #725512;
+    width: 100%;
+    
+  }
+
   .header{
     padding-top:0;
-    transition:.3s
+    transition:.3s;
+    height: auto;
   }
   .header-contain .menu{
     background:url(../img/menu.png) center no-repeat;
     background-size:100%;
     width:5rem;
     height:5rem;
-    display:inline-block
+    display:inline-block;
+    position: right;
+    margin-top: 2rem;
   }
   .header p{
     font-size:3rem;
-    margin-top:8rem
+    margin-top:8rem;
   }
   .header-img{
     display:none;
-    padding-bottom:15rem
+    height: auto;
+  }
+  .header .obshee{
+    font-size: 5;
+    font-family: Monotype Corsiva;
+    color: rgb(0, 0, 0);
+    float: center;
+    text-align: center;
+    margin: 10rem 2rem;
+  }
+  .header .opisу{
+    margin-top: 0rem;
+    font-size: 4rem;
+  }
+  .header .opis{
+    margin-top: -1rem;
+    font-size: 4rem;
+   }
+  .header-contain {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .advantages h1{
+    font-size: 4.5rem;
+  } 
+
+  .prices {
+    padding: 2rem 1rem; 
+  }
+  .prices h1{
+    margin: 2rem 0rem;
+    font-size: 4.5rem;
   }
   .prices h2{
-    margin:0
+    margin:0;
   }
-  .prices-block{
-    margin-top:5rem
+  .prices-block {
+    margin-top: 0;
+  }
+
+  .contacts h1{
+    font-size: 4.5rem;
   }
   .contacts-description h2{
-    text-align:center
+    text-align:center;
   }
   .contacts .map{
-    margin-top:5rem
+    margin-top:5rem;
+  }
+
+  .about-us{
+    padding: 4rem auto;
+  }
+  .about-us h1{
+     font-size: 4.5rem;  
   }
   .about-us-description{
-    margin-top:3rem
+    margin-top:3rem;
   }
-  .order-description{
-    margin:5rem 0}
+  .about-us-slider{  
+    background: none;
+    background-size: 100%;
+    
   }
-  @media (max-width:1199px){
-    .header{
-      padding-bottom:10rem
-    }
-    .about-us-slider .prev{
-      width:6rem;
-      height:6rem
-    }
-    .about-us-slider .prev-prev{
-      left:-7rem
-    }
-    .about-us-slider .prev-next{
-      right:-7rem
-    }
-    .about-us-description p{
-      font-size:1.6rem
-    }
+  .about-us .onas{
+  background-color: #ffb832;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 5rem;
+  margin-left: 0rem;
+  width: 100%;
+  font-size: 1.8rem;
+  text-align: center;
   }
-  @media (max-width:767px){
 
+  .order-description{
+    margin:5rem 0;
   }
-  @media (max-width:430px){
-    .header-contain .menu
-    {
-      width:4rem;
-      height:4rem
-    }
-    .header-contain p{
-      font-size:2.5rem
-    }
+  .order h1{
+    font-size: 4.5rem;
   }
-  @media (max-width:330px){
-    .header-contain .menu{
-      width:3rem;
-      height:3rem
-    }
-    .header-contain p{
-      font-size:2rem
-    }
-  }
+} 
