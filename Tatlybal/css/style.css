@@ -305,6 +305,11 @@ html {
   font-size: 1.4rem;
 }
 @media (max-width:767px){
+  .header{
+    padding-top:0;
+    transition:.3s;
+    height: auto;
+  }
   .header-contain .menu{
     background:url(../img/menu.png) center no-repeat;
     background-size:100%;
@@ -312,9 +317,59 @@ html {
     height:5rem;
     display:inline-block;
     position: right;
-    margin-top: 2rem;
+    margin: 2rem auto;
   }
+  .header p{
+    font-size:3rem;
+    margin-top:8rem;
+  }
+  .header-img{
+    display:none;
+    height: auto;
+  }
+  .header .obshee{
+    width:100%;
+    background-color: #ffb832;
+    padding: 1rem;    
+    font-size: 4;
+    font-family: Monotype Corsiva;
+    color: rgb(0, 0, 0);
+    float: center;
+    text-align: center;
+    margin: 1rem 50rem;
+    border-radius: 1.5rem;
+
+  }
+  .header .opisу{
+    margin-top: 0rem;
+    font-size: 4rem;
+  }
+  .header .opis{
+    margin-top: -1rem;
+    font-size: 4rem;
+   }
+  .header-contain {
+    text-align: center;
+    margin-top: -1rem;
+  }
+  .advantages h1{
+    font-size: 1.5rem;
+  } 
+  .prices h1{
+    
+    font-size: 3.5rem;
+  }
+  .contacts h1{
+    font-size: 3.5rem;
+  }
+  .about-us h1{
+    font-size: 1.5rem;  
+ }
+ .order h1{
+  font-size: 3.5rem;
 }
+}
+
 @media (max-width:991px){
   .nav{
     position:initial;
@@ -370,12 +425,15 @@ html {
     height: auto;
   }
   .header .obshee{
-    font-size: 5;
+    background-color: #ffb832;
+    padding: 1rem;    
+    font-size: 4;
     font-family: Monotype Corsiva;
     color: rgb(0, 0, 0);
     float: center;
     text-align: center;
-    margin: 10rem 2rem;
+    margin: 1rem 5rem;
+    border-radius: 1.5rem;
   }
   .header .opisу{
     margin-top: 0rem;
@@ -387,7 +445,7 @@ html {
    }
   .header-contain {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.1rem;
   }
   
   .advantages h1{
