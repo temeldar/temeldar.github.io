@@ -304,7 +304,17 @@ html {
   margin: 0;
   font-size: 1.4rem;
 }
-
+@media (max-width:767px){
+  .header-contain .menu{
+    background:url(../img/menu.png) center no-repeat;
+    background-size:100%;
+    width:5rem;
+    height:5rem;
+    display:inline-block;
+    position: right;
+    margin-top: 2rem;
+  }
+}
 @media (max-width:991px){
   .nav{
     position:initial;
