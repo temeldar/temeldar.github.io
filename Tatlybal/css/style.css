@@ -336,12 +336,12 @@ html {
     color: rgb(0, 0, 0);
     float: center;
     text-align: center;
-    margin: 1rem 50rem;
+    margin-top: 1rem;
     border-radius: 1.5rem;
 
   }
   .header .opisу{
-    margin-top: 0rem;
+    margin: 0rem 5rem;
     font-size: 4rem;
   }
   .header .opis{
@@ -509,4 +509,4 @@ html {
   .order h1{
     font-size: 4.5rem;
   }
-}  
+}   
